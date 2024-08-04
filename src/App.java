@@ -18,5 +18,10 @@ public class App {
     canciones[1] = sc.nextLine();
     System.out.println("Ingresa una tercera canción: ");
     canciones[2] = sc.nextLine();
+
+    for (int i = 0; i < canciones.length; i++ ){
+        System.out.println("La canción que ingresaste es : "+canciones[i]);
+
+    }
     }
 }
